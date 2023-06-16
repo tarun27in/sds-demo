@@ -87,7 +87,7 @@ func makeRouter() *gin.Engine {
 	return r
 }
 
-// options middleware adds options headers.
+// options middleware adds options headers. whatever that is.
 func options(c *gin.Context) {
 	if c.Request.Method != "OPTIONS" {
 		c.Next()

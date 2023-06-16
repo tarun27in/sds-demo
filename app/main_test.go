@@ -24,5 +24,4 @@ func testResponse(t *testing.T, r *gin.Engine, req *http.Request, f func(w *http
 
 func testResponseStatusOK(w *httptest.ResponseRecorder) bool {
 	return w.Code == http.StatusOK
-	//this is a status code
 }
